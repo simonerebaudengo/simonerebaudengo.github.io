@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Yibu</title>
+	<link rel="stylesheet" type="text/css" href="css/folio.css" />
+	<link rel="stylesheet" type="text/css" href="css/ansible_content.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,900" rel="stylesheet">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/folio.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				//sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="fullpage">
+
+	<div class="section active" id="section0">
+		<div class="topic"><h3> <a href='index.html' class='link'>BACK</a> </h3></div>
+		<img src="assets/ansible.jpg" style="width: 60%;">
+		<div id="intro"><h1>Project Circuit</h1>
+			<p>A new software platform that brings together text, voice, video, conferencing, and enterprise social networking in a seamless and intuitive experience.</p>
+
+		</div>
+
+	</div>
+
+	<div class="section" id="section1">
+		<!-- <img src="assets/yibusketch.png" style="width: 40%;opacity: 0.7;"> -->
+		<img src="assets/anssketch.png" style="width: 40%;">
+		<p>Project Circuit was one of the largest projects I worked on during my time at frog. A multiplatform enterprise communication tool, working seamlessy across each device for private and public communication.</br></br>
+			The project ran for more than 18 months and I was early in the project with the <span id='highlight'>main task of defining the main interaction model for the communication within the tool</span>. Later in the project I was also tasked to translate the same model to be adapted to pretty old-school devices like desk phones.
+
+	</div>
+
+
+	<div class="section" id="section2">
+		<video id="myVideosmall" loop muted data-autoplay>
+			<!-- <source src="assets/prototype.mp4" type="video/mp4" /> -->
+			<source src="assets/ansible_conv.webm" type="video/webm" />
+		</video>
+
+		<div id="overlay">
+			<p>Defining a conversation model for a tool that has infinite users configuration and infinite potential usecases is a pretty complex task. Since the start I had to find my own ways to explain possible interaction models with quick sketches and animations. </p>
+		</div>
+	</div>
+	<div class="section" id="section3">
+
+		<div class="text_container">
+			<div class="text_slide">
+				<p> Big part of the task was to figure out how to <span id='highlight'>communicate and detail all the design decisions to the development team</span>, using a mix of flows, animations and quick prototype.</p>
+			</div>
+		</div>
+
+	</div>
+	<div class="section" id="section4">
+
+		<div class="text_container">
+			<div class="text_slide">
+				<p>To test scenarios that needed a multi user interaction, like conference calls and live messaging, I created quite <span id='highlight'>hacky networked prototypes</span>using Processing and Spacebrew to simulate a communicate between devices</br>(at the time I had no clue of Nodejs...)</p>
+			</div>
+		</div>
+
+	</div>
+	<div class="section" id="section5">
+
+		<div class="text_container">
+			<div class="text_slide">
+				<p>In a second part of the project we had to consider more complex scenarios, devices and edgecases. One of my main tasks was to <span id='highlight'>translate the same interaction model</span>to a non-touch screen desk phone and considering the complexities of multi-line call systems.</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="section" id="section6">
+		<video id="myVideo" loop muted data-autoplay>
+			<!-- <source src="assets/prototype.mp4" type="video/mp4" /> -->
+			<source src="assets/ansible_quick.webm" type="video/webm" />
+		</video>
+
+			<div id="overlay">
+				<p>We had to convince the client that a new digital interface needs a new physical configuration of buttons. So I ended up building a mock up phone, with <span id='highlight'>a lot of wires and spaghetti code</span>. </p>
+			</div>
+
+
+	</div>
+
+
+	<div class="section" id="section7">
+		<video id="myVideo" loop muted data-autoplay>
+			<!-- <source src="assets/yibu_video.mov" type="video/mov" /> -->
+			<source src="assets/ansible_phone.webm" type="video/webm" />
+		</video>
+
+	</div>
+
+	<div class="section" id="section8">
+		<div class="text_container">
+			<div class="text_slide">
+				<h3> <a href='index.html' class='link'>GO BACK</a>  or <a href='yibu.html' class='link'>GO TO NEXT PROJECT</a> </h3>
+			</div>
+		</div>
+	</div>
+
+
+
+</div>
+
+</body>
+</html>

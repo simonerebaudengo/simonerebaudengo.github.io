@@ -1,0 +1,140 @@
+
+.topic{
+  position: absolute;
+  top: 40px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  z-index: 200;
+}
+
+.topic a{
+  font-weight: 600;
+  color: #F2F2F2;
+}
+
+.nav_bottom{
+  position: relative;
+  bottom: 40px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: : 100%;
+  z-index: 200;
+
+}
+.nav_bottom a{
+  font-weight: 600;
+}
+
+
+#highlight{
+  color: rgba(251, 167, 36, 1);
+
+}
+
+
+#overlay{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  z-index: 1000;
+}
+
+#intro{
+  position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  z-index: 1000;
+}
+
+
+/* Section 0
+ * --------------------------------------- */
+#section0{
+  background-image: url(img/gc_intro.JPG);
+
+}
+#section0 h1{
+  color: white;
+  font-weight: 600;
+}
+
+#section0 p{
+  color: white;
+}
+
+/* Section 1
+ * --------------------------------------- */
+
+
+#section1 p{
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 300;
+
+}
+
+/* Section 2
+ * --------------------------------------- */
+
+
+#section2 p{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+/* Sectionn3
+ * --------------------------------------- */
+ #section3 p{
+   color: #333;
+   text-align: center;
+   margin: 0 auto;
+   font-weight: 400;
+ }
+
+
+
+
+/* Section 4
+ * --------------------------------------- */
+ #section4 p{
+   color: white;
+   text-align: center;
+   margin: 0 auto;
+   font-weight: 400;
+ }
+
+
+/* Section 5
+ * --------------------------------------- */
+
+ #section5 p{
+   color: white;
+   text-align: center;
+   margin: 0 auto;
+   font-weight: 400;
+ }
+
+
+ /* Section 6
+  * --------------------------------------- */
+  #section6 p{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+  }
+
+
+  /* Section 5
+   * --------------------------------------- */
+
+   #section7{
+     background-image: url(img/gc_end.png);
+   }

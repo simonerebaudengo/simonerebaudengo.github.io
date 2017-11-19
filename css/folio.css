@@ -8,7 +8,19 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 }
 a{
 	text-decoration:none;
+  /*font-weight: 300;*/
+  color: rgba(0,0,0,0.5);
+
 }
+
+a.link{
+    color: rgba(251, 167, 36, 1);
+    /*background-color: rgba(243, 174, 64, 0.5);*/
+}
+
+
+
+
 table {
     border-spacing: 0;
 }
@@ -49,7 +61,7 @@ abbr,acronym { border: 0;
  * --------------------------------------- */
 body{
   font-family: 'Lato', sans-serif;
-	color: #333;
+
 	color: rgba(0,0,0,0.5);
 }
 .wrap{
@@ -60,12 +72,31 @@ body{
 }
 h1{
 	font-size: 30pt;
+  font-weight: 400;
 }
 h2{
-	font-size: 15pt;
+	font-size: 20pt;
+  font-weight: 400;
+  color: white;
+
+}
+h3{
+	font-size: 10pt;
+  font-weight: 600;
+  color: white;
+
 }
 p{
-	font-size: 10pt;
+	font-size: 15pt;
+  font-weight: 300;
+}
+
+img{
+  padding-bottom: 20px;
+}
+
+video{
+  z-index: -2000;
 }
 .intro p{
 	width: 50%;
@@ -74,7 +105,14 @@ p{
 }
 .section{
 	text-align:center;
+  background-size: cover;
 }
+
+.slide{
+  background-size: cover;
+}
+
+
 #menu li {
 	display:inline-block;
 	margin: 10px;
@@ -117,56 +155,7 @@ p{
 	padding: 0;
 	margin:0;
 }
-.twitter-share-button{
-	position: fixed;
-	z-index: 99;
-	right: 149px;
-	top: 9px;
-}
 
-
-#examplesList{
-	display:none;
-	background: #282828;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	padding: 20px;
-	float: left;
-	position: absolute;
-	bottom: 29px;
-	right: 0;
-	width:638px;
-	text-align:left;
-}
-#examplesList ul{
-	padding:0;
-}
-#examplesList ul li{
-	display:block;
-	margin: 5px 0;
-}
-#examplesList ul li a{
-	color: #BDBDBD;
-	margin:0;
-}
-#examplesList ul li a:hover{
-	color: #f2f2f2;
-}
-#examplesList .column{
-	float: left;
-	margin: 0 20px 0 0;
-}
-#examplesList h3{
-	color: #f2f2f2;
-	font-size: 1.2em;
-	margin: 0 0 15px 0;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
-	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.1);
-	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
-	padding: 0 0 5px 0;
-}
 
 #canvas{
   position: absolute;
@@ -175,55 +164,84 @@ p{
   width:100%;
   height:100%;
   z-index: 1;
-
 }
-#overlay{
+
+#canvasM{
   position: absolute;
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-  z-index: 1000;
+  top: 0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: 1;
+}
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+
 }
 
 
-/* Section 1
- * --------------------------------------- */
-#section0{
-  background-color: #B2DBBF;
+	#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+  #myVideosmall{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		left:0;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: white; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
 
+.text_container{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-#section0 h1{
-  color: #000;
+.text_slide{
+  position: relative;
+  top: 45%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
-#section0 p{
-  color: #333;
-  opacity: 0.4;
+
+.white{
+  color: rgba(255,255,255);
 }
 
 
-/* Section 2
- * --------------------------------------- */
-#section1{
-  background-color: #70C1B3;
-
-}
-#section1 h1{
-  color: #000;
-}
-#section1 p{
-  opacity: 0.4;
-}
-
-
-/* Section 3
- * --------------------------------------- */
-#section2{
-  background-color: #2C3E50;
-}
-#section2 h1{
-  color: #F2F2F2;
-}
-#section2 p{
-  opacity: 0.6;
+.fp-slidesNav.bottom{
+  bottom: 25px;
 }

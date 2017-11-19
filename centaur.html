@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Centaur</title>
+	<link rel="stylesheet" type="text/css" href="css/folio.css" />
+	<link rel="stylesheet" type="text/css" href="css/centaur_content.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,900" rel="stylesheet">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/folio.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				//sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+
+	<div id="fullpage">
+
+		<div class="section active" id="section0">
+			<div class="topic">
+				<h3> <a href='index.html' class='link'>BACK</a> </h3></div>
+			<div id="intro">
+				<h1>Ghost Chef</h1>
+				<p> Ghost Chef is a tool to record culinary identities of chefs and translate them into a generative tool to support creativity in the kitchen.</p>
+			</div>
+
+		</div>
+
+		<div class="section" id="section1">
+			<img src="assets/ghostsketch.png" style="width: 35%;opacity: 0.9;">
+			<p> In collaboration with <a target="_blank"href='http://bitsxbites.com/'class ='link'>Bits x Bites</a>, the first Food+Tech accellerator in China, I started a research around the topic of AI and cooking. </br>
+			</br> Most future visions of the kitchen tend to show cooking as an issue to solve and use intelligence as a way to automate task and bring us as far from cooking as possible. What we were very interested in was to look at those more subtle ways in which intelligence
+				could fit and enhance the experience the kitchen. <span id='highlight'> Rather than automating and replacing humans, What new interactions can we discover by using the best of both working together?</span></p>
+		</div>
+
+
+		<div class="section" id="section2">
+			<video id="myVideo" loop muted data-autoplay>
+			<source src="assets/gc_research.webm" type="video/webm" />
+		</video>
+
+			<div id="overlay">
+				<p> The project started as an open research, combining <span id="highlight">a mix of immersive experiences in restaurants and kitchens as well as early explorations of Machine Learning and generative tools.</span></p>
+				<p> We focused our research less in the act of cooking, but more into the other cognitive tasks that happen around it. Actions like finding new ideas for combinations or ingredients, making estimations of quantities or fixing on the fly a recipe.</br>
+				All this soft knowledge is often uncaptured and remains in the head of chefs. What if we could record the culinary identity of a chef, beyond what you can find in recipe books?</p>
+
+			</div>
+		</div>
+
+		<div class="section" id="section3">
+			<video id="myVideo" loop muted data-autoplay>
+				<!-- <source src="assets/gc_docs.mov" type="video/mov" /> -->
+				<source src="assets/gc_docs.webm" type="video/webm" />
+			</video>
+
+			<div id="intro">
+				<p> <span id="highlight"> We ran experiements with 5 chefs around the world</span> to act as if they were an artificial intelligence in a software. In shared docs sessions each of them would suggest and autocomplete recipes, food combinations and tips for cooking on
+					based on a user's input. Out of this prototype <span id="highlight">we created a small and curated dataset</span> of ideas and combinations based on each of them.</p>
+			</div>
+		</div>
+
+		<div class="section" id="section4">
+			<video id="myVideo" loop muted data-autoplay>
+				<source src="assets/choosing.webm" type="video/webm" />
+			</video>
+
+			<div id="overlay">
+				<p> We prototyped a new tool called <span id="highlight">the Ghost Chef</span>, a generative text editor that allows you to choose between a set of 'non generic' intelligences based on real chefs to help you find and write new recipes and food combinations.</p>
+			</div>
+		</div>
+
+
+	<div class="section" id="section5">
+		<video id="myVideo" loop muted data-autoplay>
+			<source src="assets/cowriting.webm" type="video/webm" />
+		</video>
+		<div id="overlay">
+			<p> Ghost chef is a tool to <span id="highlight"> co-write with a 'machine'</span>. One can start typing and let the ghost-chef autocomplete and suggest combinations, switch between different ghost chefs to see how each of their <span id="highlight">digital culinary identity </span>might change the suggestions.</p>
+		</div>
+
+	</div>
+
+	<div class="section" id="section6">
+		<video id="myVideo" loop muted data-autoplay>
+			<source src="assets/gc_transparent.webm" type="video/webm" />
+		</video>
+		<div id="overlay">
+			<p> With Ghost chef we aimed at creating <span id="highlight">a tool based on 'small and curated' data</span>, a more transparent and subtle intelligent helper, that surfaces parameters to help you control and understand better something 'smart'.</p>
+		</div>
+
+	</div>
+
+	<div class="section" id="section7">
+
+		<div class="text_container">
+			<div class="text_slide">
+				<h3> <a href='index.html' class='link'>GO BACK</a>  or <a href='ansible.html' class='link'>GO TO NEXT PROJECT</a> </h3>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	</div>
+
+</body>
+
+</html>

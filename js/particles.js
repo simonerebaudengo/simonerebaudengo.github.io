@@ -85,10 +85,10 @@ function createPart(type, x, y) {
   var a = createSprite(x, y);
   a.type = type;
   // console.log(type);
-  var img  = loadImage("assets/1.png");
+  var img  = loadImage("assets/"+type+".png");
   a.addImage(img);
   a.setSpeed(0.5, random(360));
-  a.rotationSpeed = .2;
+  a.rotationSpeed = random(0.2 ,0.5);
   //a.debug = true;
   a.scale = .2;
 

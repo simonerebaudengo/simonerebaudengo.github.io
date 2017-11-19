@@ -1,0 +1,144 @@
+.topic{
+  position: absolute;
+  top: 40px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  z-index: 200;
+}
+
+.topic a{
+  font-weight: 600;
+  color: #333;
+}
+
+
+.nav_bottom{
+  position: relative;
+  bottom: 40px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: : 100%;
+  z-index: 200;
+
+}
+.nav_bottom a{
+  font-weight: 600;
+}
+
+#highlight{
+  color: rgba(251, 167, 36, 1);
+
+}
+
+#overlay{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  z-index: 1000;
+}
+
+#intro{
+  position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  z-index: 1000;
+}
+
+
+/* Section 0
+ * --------------------------------------- */
+#section0{
+  /*background-image: url(img/ansible.png);*/
+  background-color: white;
+
+}
+#section0 h1{
+  color: #000;
+  font-weight: 600;
+}
+
+/* Section 1
+ * --------------------------------------- */
+
+
+#section1 p{
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+/* Section 2
+ * --------------------------------------- */
+
+
+#section2 p{
+  color: #333;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+/* Sectionn3
+ * --------------------------------------- */
+ #section3{
+   background-image: url(img/ansible_wires.jpg);
+
+ }
+ #section3 p{
+   color: white;
+   text-align: center;
+   margin: 0 auto;
+   font-weight: 400;
+ }
+
+
+
+/* Section 4
+ * --------------------------------------- */
+ #section4{
+   background-image: url(img/ansible_videocon.jpg);
+
+ }
+ #section4 p{
+   color: white;
+   text-align: center;
+   margin: 0 auto;
+   font-weight: 400;
+ }
+
+
+/* Section 5
+ * --------------------------------------- */
+
+ #section5{
+   background-image: url(img/ansible_journeys.jpg);
+
+ }
+
+ #section5 p{
+   color: white;
+   text-align: center;
+   margin: 0 auto;
+   font-weight: 400;
+ }
+
+
+ /* Section 6
+  * --------------------------------------- */
+  #section6 p{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+  }
+
+
+ #section8{
+   background-image: url(img/ansible_end.jpg);
+
+ }
